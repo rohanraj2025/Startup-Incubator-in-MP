@@ -455,7 +455,7 @@ col1, col2 = st.columns(2)
 
 with col1:
 
-    st.subheader("GENESIS — EIR-wise startup count")
+    st.subheader("GENESIS — Component-wise startup count")
 
     genesis_rows = rows[
         rows["scheme"] == "GENESIS"
